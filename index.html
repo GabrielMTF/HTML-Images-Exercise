@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+    <style>
+        body {
+            color: white;
+            font: normal 11pt Arial;
+            text-align: center;
+            background-color: rgb(22, 22, 22);
+        }
+        div {
+            border: solid 3px white;
+            border-radius: 10px;
+            margin-left:360px ;
+            margin-right:360px ;
+        }
+
+        img {
+            width: 30px;
+            height: 30px;
+        }
+
+        table {
+            margin: auto;
+            border-spacing: 0px;
+            color: black;
+            border: solid 2px white;
+            padding:0px;
+        }
+        caption {
+            padding-top: 5px;
+            padding-bottom: 5px;
+            color: white;
+        }
+        td {
+            border: solid 1.5px black;
+            padding: 3px;
+        }
+        td.champ {
+            text-align: left;
+        }
+        tr#kaisa {
+            background-color: blueviolet;
+        }
+        tr#viego {
+            background-color: rgb(5, 180, 107);
+        }
+        tr#jhin {
+            background-color: rgb(57, 66, 16);
+        }
+        tr#tresh {
+            background-color: rgb(52, 163, 8);
+        }
+        tr#senna {
+            background-color: rgb(5,180,107) ;
+        }
+        tr#seraph {
+            background-color: rgb(224, 26, 158);
+        }
+        tr#kat {
+            background-color: red;
+        }
+        tr#shaco {
+            background-color: rgb(68, 34, 189);
+        }
+        tr#vayne {
+            background-color: rgb(88, 88, 78);
+        }
+        tr#ekko {
+            background-color: rgb(19, 243, 11);
+        }
+        tr#spec {
+            background-color: rgb(199, 194, 194);
+        }
+        a {
+            color: white;
+            text-decoration: none;
+        }
+        a :hover {
+            color: rgb(128, 128, 128);
+            transition: 0.5s;
+        }
+        p#contact {
+            font-size: 14pt;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+    <h1>Tabela</h1>
+    <p>Exercício de HTML para exercitar tabelas.</p>
+    <p id="contact"><a href="https://www.linkedin.com/in/gabriel-mota-033528206/" target="_blank"><strong>Linkedin</strong></a> / <a href="https://github.com/GabrielMTF" target="_blank"><strong>GitHub</strong></a></p>
+    </div>
+    <table>
+        <caption>Campeões mais jogados de League of Legends em 2020</caption>
+        <thead>
+            <tr id="spec">
+                <td>Campeões</td>
+                <td>Mais utilizados por % de jogadores</td>
+                <td>Popularidade em %</td>
+                <td>Clasificação média</td>
+
+            </tr>
+        </thead>
+        <tbody>
+        <tr id="kaisa">
+            <td class="champ"><img src="imagens/kaisa.jpg">Kai'sa</td>
+            <td>5,1%</td>
+            <td>30.2%</td>
+            <td class="elo"><img src="imagens/prata.png">Prata I</td>
+        </tr>
+        <tr id="viego">
+            <td class="champ"><img src="imagens/viego.png">Viego</td>
+            <td>3,2%</td>
+            <td>16,6%</td>
+            <td class="elo"><img src="imagens/prata.png">Prata I</td>
+        </tr>
+        <tr id="jhin">
+            <td class="champ"><img src="imagens/jhin.jpg">Jhin</td>
+            <td>2,4%</td>
+            <td>18,3%</td>
+            <td class="elo"><img src="imagens/prata.png">Prata I</td>
+        </tr>
+        <tr id="tresh">
+            <td class="champ"><img src="imagens/tresh.png">Tresh</td>
+            <td>2,3%</td>
+            <td>21,0%</td>
+            <td class="elo"><img src="imagens/ouro.png">Ouro IV</td>
+        </tr>
+        <tr id="senna">
+            <td class="champ"><img src="imagens/senna.webp">Senna</td>
+            <td>2,2%</td>
+            <td>21,7%</td>
+            <td class="elo"><img src="imagens/prata.png">Prata II</td>
+        </tr>
+        <tr id="seraph">
+            <td class="champ"><img src="imagens/seraphine.png">Seraphine</td>
+            <td>2,1%</td>
+            <td>16,8%</td>
+            <td class="elo"><img src="imagens/prata.png">Prata I</td>
+        </tr>
+        <tr id="kat">
+            <td class="champ"><img src="imagens/katarina.jpg">Katarina</td>
+            <td>2,0%</td>
+            <td>9,3%</td>
+            <td class="elo"><img src="imagens/prata.png">Prata I</td>
+        </tr>
+        <tr id="shaco">
+            <td class="champ"><img src="imagens/shaco.jpg">Shaco</td>
+            <td>1,7%</td>
+            <td>9,4%</td>
+            <td class="elo"><img src="imagens/prata.png">Prata I</td>
+        </tr>
+        <tr id="vayne">
+            <td class="champ"><img src="imagens/vayne.jpg">Vayne</td>
+            <td>1,5%</td>
+            <td>16,9%</td>
+            <td class="elo"><img src="imagens/prata.png">Prata I</td>
+        </tr>
+        <tr id="ekko">
+            <td class="champ"><img src="imagens/ekko.jpg">Ekko</td>
+            <td>1,5%</td>
+            <td>11,8%</td>
+            <td class="elo"><img src="imagens/prata.png">Prata I</td>
+        </tr>
+    </tbody>
+    </table>
+</body>
+
+</html>
