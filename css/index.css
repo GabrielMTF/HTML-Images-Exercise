@@ -1,11 +1,11 @@
 body {
-    color: white;
+    color: black;
     font: normal 11pt Arial;
     text-align: center;
-    background-color: rgb(22, 22, 22);
+    background-color: white;
 }
 div {
-    border: solid 3px white;
+    border: solid 3px rgb(33, 95, 230);
     border-radius: 10px;
     margin-left:360px ;
     margin-right:360px ;
@@ -17,16 +17,18 @@ img {
 }
 
 table {
+    background-color:rgb(33, 95, 230) ;
     margin: auto;
     border-spacing: 0px;
     color: black;
-    border: solid 2px white;
+    border: solid 2px rgb(33, 95, 230);
+    border-radius: 5px;
     padding:0px;
 }
 caption {
     padding-top: 5px;
     padding-bottom: 5px;
-    color: white;
+    color:black;
 }
 td {
     border: solid 1.5px black;
@@ -35,42 +37,42 @@ td {
 td.champ {
     text-align: left;
 }
-tr#kaisa {
+tr#kaisa :hover {
     background-color: blueviolet;
 }
 
-tr#viego {
+tr#viego :hover {
     background-color: rgb(5, 180, 107);
 }
-tr#jhin {
+tr#jhin :hover {
     background-color: rgb(57, 66, 16);
 }
-tr#tresh {
+tr#tresh :hover {
     background-color: rgb(52, 163, 8);
 }
-tr#senna {
+tr#senna :hover {
     background-color: rgb(5,180,107) ;
 }
-tr#seraph {
+tr#seraph :hover {
     background-color: rgb(224, 26, 158);
 }
-tr#kat {
+tr#kat :hover {
     background-color: red;
 }
-tr#shaco {
+tr#shaco :hover {
     background-color: rgb(68, 34, 189);
 }
-tr#vayne {
+tr#vayne :hover {
     background-color: rgb(88, 88, 78);
 }
-tr#ekko {
+tr#ekko :hover {
     background-color: rgb(19, 243, 11);
 }
 tr#spec {
-    background-color: rgb(199, 194, 194);
+    background-color: rgb(21, 95, 255);
 }
 a {
-    color: white;
+    color: black;
     text-decoration: none;
 }
 a :hover {
